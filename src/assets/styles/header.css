@@ -1,0 +1,49 @@
+header{
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 3px 2px #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 45px;
+    padding-top: 25px;
+}
+header nav a{
+   padding: 8px;
+   margin: 8px;
+   text-decoration: none;
+   color: #000;
+   font-size: 18px;
+   font-weight: 500;
+}
+header .btn1{
+    padding: 9px 25px;
+    padding-right: 35px;
+    font-size: 13px;
+    background-color: #fff;
+    border: 1px solid #010044;
+    color: #010044;
+    border-radius: 10px;
+    border-right: none;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    position: relative;
+    right: 100px;
+    cursor: pointer;
+    outline: none;
+}
+
+header .btn2{
+    padding: 10px 25px;
+    font-size: 13px;
+    background-color: #1f365a;
+    border: 1px solid #1f365a;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    right: 58px;
+    cursor: pointer;
+    outline: none;
+}

@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+.container{
+    width: 100%;
+    padding: 25px;
+    padding-top: 100px;
+}
+.container .lable{
+    padding-bottom: 4px;
+    font-size: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .btns{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 8px;
+}
+.container .btns .btn4{
+   padding: 5px 20px;
+   font-size: 14px;
+   background-color: #ffffff;
+   border: .2px solid #1f365a2e;
+   color: #000;
+   border-radius: 50px;
+   cursor: pointer;
+   outline: none;
+}
+.container .btns .btn2{
+   padding: 5px 20px;
+   font-size: 14px;
+   background-color: #1f365a;
+   color: #fff;
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+   outline: none;
+}
+
+.container b{
+    color: #b06961;
+}
+.container span{
+    font-weight: bold;
+    color: #3a4e39;
+}
+.container del{
+    color: #a7a7a7;
+}
+
+.container p{
+    font-size: large;
+    font-weight: 400;
+}
+.container .cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 8px;
+}
+
+.card{
+    padding: 15px 18px;
+    padding-bottom: 25px;
+    width: 280px;
+    box-shadow: 1px 1px 6px #00000047;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 100%;
+}
+
+
+.new .btn5{
+    width: 81%;
+    position: relative;
+    right: -27px;
+    top: -136px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #21372a;
+    border: 1.6px solid #d7ffe77d;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+}
